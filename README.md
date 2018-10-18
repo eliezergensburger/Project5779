@@ -1,5 +1,3 @@
-#CSharp_5779
-
 C# with WPF and 3-Layers Project 5779
 
 http://geekswithblogs.net/BlackRabbitCoder/archive/2010/08/12/10-things-c-developers-learning-c-should-know.aspx
