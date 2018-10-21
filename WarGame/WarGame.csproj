@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Card.cs" />
+    <Compile Include="CardStock.cs" />
     <Compile Include="Enums.cs" />
     <Compile Include="Game.cs" />
     <Compile Include="Player.cs" />
