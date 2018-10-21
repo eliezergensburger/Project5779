@@ -6,12 +6,8 @@ using System.Threading.Tasks;
 
 namespace WarGame
 {
-    class Program
+    public enum E_Color
     {
-        static void Main(string[] args)
-        {
-            Game war = new Game();
-            war.start();
-        }
+        BLACK, RED //, SHAKUF
     }
 }
