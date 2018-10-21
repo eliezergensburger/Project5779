@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stammmm", "Stammmm\Stammmm.csproj", "{2CD1A5E5-FAC6-461E-B6D5-999D6B19FA19}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarGame", "WarGame\WarGame.csproj", "{DE59D32A-3853-48BE-B27F-0ACF33ACA666}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2CD1A5E5-FAC6-461E-B6D5-999D6B19FA19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CD1A5E5-FAC6-461E-B6D5-999D6B19FA19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CD1A5E5-FAC6-461E-B6D5-999D6B19FA19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE59D32A-3853-48BE-B27F-0ACF33ACA666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE59D32A-3853-48BE-B27F-0ACF33ACA666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE59D32A-3853-48BE-B27F-0ACF33ACA666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE59D32A-3853-48BE-B27F-0ACF33ACA666}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
