@@ -2,10 +2,11 @@
 
 namespace WarGameII
 {
-    public class Card
+    public class Card :IComparable<Card>
     {
         private int mispar;
         private E_Color color;
+
         public Card(int number, string colorName)
         {
             try
@@ -21,13 +22,14 @@ namespace WarGameII
             {
                 Console.WriteLine(ex.Message);
             }
-
         }
+
         public E_Color Color
         {
             get { return color; }
             set { color = value; }
         }
+
         public int Number
         {
             get { return mispar; }
@@ -35,7 +37,7 @@ namespace WarGameII
             {
                 if (value < 2 || value > 14)
                 {
-                    throw new Exception("inavlid range");
+                    throw new Exception("invalid range");
                 }
                 mispar = value;
             }
@@ -61,6 +63,9 @@ namespace WarGameII
             }
         }
 
-
+        public int CompareTo(Card other)
+        {
+            return Number.CompareTo(other.Number);
+        }
     }
 }

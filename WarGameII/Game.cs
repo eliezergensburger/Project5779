@@ -6,6 +6,7 @@ namespace WarGameII
     {
         private Player[] players;
         private CardStock cardstock;
+
         public Game()
         {
             players = new Player[] 
@@ -14,10 +15,11 @@ namespace WarGameII
                 new Player{ Name = "You"}
             };
             cardstock = new CardStock();
-
         }
+
         public void play()
         {
+            //TO DO
             throw new NotImplementedException();
         }
     }
