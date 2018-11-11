@@ -36,11 +36,11 @@ namespace BankEvent
 
         }
 
-        protected virtual void OnTransactionMade(TransactionEventArgs e)
+        protected virtual void OnTransactionMade(TransactionEventArgs args)
         {
             if (TransactionMade != null)
             {
-                TransactionMade(this, e); // Raise the event 
+                TransactionMade(this, args); // Raise the event 
             }
         }
     }
