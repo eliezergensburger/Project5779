@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarGameII", "WarGameII\WarG
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankEvent", "BankEvent\BankEvent.csproj", "{130A142C-8728-47BD-B648-6010A832FD6B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFBackGroundWorker", "..\WPFBackGroundWorker\WPFBackGroundWorker\WPFBackGroundWorker.csproj", "{5307A8DC-A763-43B7-9960-3523398D0971}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{130A142C-8728-47BD-B648-6010A832FD6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{130A142C-8728-47BD-B648-6010A832FD6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{130A142C-8728-47BD-B648-6010A832FD6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5307A8DC-A763-43B7-9960-3523398D0971}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5307A8DC-A763-43B7-9960-3523398D0971}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5307A8DC-A763-43B7-9960-3523398D0971}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5307A8DC-A763-43B7-9960-3523398D0971}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
